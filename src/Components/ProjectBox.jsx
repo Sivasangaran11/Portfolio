@@ -9,20 +9,18 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
     LevelsGithub: "https://github.com/EshaalB/Gym-Website",
     LevelsWebsite: "https://gym-website-pink.vercel.app/",
 
-    MovieDesc:
-      "This web app  is for helping you find your desired movie.The project helped me with understanding the working of API.I also learned new CSS properties and tricks.",
-    MovieGithub: "https://github.com/EshaalB/Movie-App",
-    MovieWebsite: "https://film-mania.vercel.app/",
+    "HP-RestaurantDesc": "In developing the Hotel Management System, I learned to use React for the frontend, make API calls, implement MVC architecture, and design MongoDB schemas. This involved creating Models for data, Controllers for logic, and Routes for navigation, enhancing my skills in building efficient web applications.",
+    "HP-RestaurantGithub": "https://github.com/Sivasangaran11/Hotel-Management-System",
+    "HP-RestaurantWebsite": "https://hp-restaurant.vercel.app/",
 
-    ColourPaletteDesc:
-      "This website helps you generate random colours that you can use as a palette.The project helped me understand Javascript more deeply using advance techniques",
-    ColourPaletteGithub: "https://github.com/EshaalB/Colour-palette-Generator",
-    ColourPaletteWebsite: "https://colourpalettegen.netlify.app",
+    "Online Transaction Fraud DetectionDesc": "From the Online Transaction Fraud Detection project, I learned how to collect and preprocess transaction data, train an XGBoost classifier with relevant features, and develop an accurate and robust fraud detection system. This project enhanced my skills in machine learning, data analysis, and implementing security measures for online transactions.",
+    "Online Transaction Fraud DetectionGithub": "https://github.com/Sivasangaran11/online_transaction_fraud_detection",
+    "Online Transaction Fraud DetectionWebsite": "https://github.com/Sivasangaran11/online_transaction_fraud_detection",
 
-    BackpackDesc:
-      "This webpageis was made for an ecommerce brand showcasing their backpacks.The project taught me how to use custom cursors and arrange text in a much better way",
-    BackpackGithub: "https://github.com/EshaalB/Landing-Page--React-",
-    BackpackWebsite: "https://landing-page-react-sage.vercel.app/",
+    "An Enhanced Product Recommendation SystemDesc":
+      "From the Recommendation System project, I learned how to implement a deep learning-based recommendation system that merges text and image categorization for eCommerce platforms. This project enhanced my skills in using deep learning algorithms, integrating multiple data sources, and developing personalized product suggestions to improve user experience.",
+      "An Enhanced Product Recommendation SystemGithub": "https://github.com/Sivasangaran11/Enhanced-Product-Recommendation-System",
+      "An Enhanced Product Recommendation SystemWebsite": "https://github.com/Sivasangaran11/Enhanced-Product-Recommendation-System",
   };
 
   return (

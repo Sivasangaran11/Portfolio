@@ -13,9 +13,9 @@ const Projects = () => {
       </h1>
       <div className="project">
         <ProjectBox projectPhoto={GymImage} projectName="Levels" />
-        <ProjectBox projectPhoto={FilmImage} projectName="Movie" />
-        <ProjectBox projectPhoto={ColourImage} projectName="ColourPalette" />
-        <ProjectBox projectPhoto={BackpackImage} projectName="Backpack" />
+        <ProjectBox projectPhoto={FilmImage} projectName="HP-Restaurant" />
+        <ProjectBox projectPhoto={ColourImage} projectName="Online Transaction Fraud Detection" />
+        <ProjectBox projectPhoto={BackpackImage} projectName="An Enhanced Product Recommendation System" />
       </div>
     </div>
   );

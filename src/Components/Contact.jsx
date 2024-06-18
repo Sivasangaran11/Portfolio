@@ -23,6 +23,11 @@ const Contact = () => {
     setSubmitted(true);
   };
 
+  const createMailtoLink = () => {
+    const { name, email, message } = formData;
+    return `mailto:sangaransiva91@gmail.com?subject=Contact from ${name}&body=${message} (Email: ${email})`;
+  };
+
   return (
     <div className="contact-container">
       <h2>Contact Me</h2>
@@ -62,11 +67,9 @@ const Contact = () => {
               required
             />
           </div>
-          <a type="submit" href="mailTo:sangaransiva91@gmail.com">
-            <button className="submit-btn">
-              {" "}
-              Submit
-              <FaCheck> </FaCheck>{" "}
+          <a href={createMailtoLink()}>
+            <button className="submit-btn" type="submit">
+              Submit <FaCheck />
             </button>
           </a>
         </form>

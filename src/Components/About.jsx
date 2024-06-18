@@ -10,20 +10,26 @@ const About = () => {
             Get to <b>know</b> me!
           </h1>
           <p>
-            Hi, my name is <b>Sivasangaran T</b> and I am from Chennai,
-            India. I'm a <b>Frontend web developer</b> and a first year
-            university student pursuing <b>BS in Computer Science</b>. <br />
+            Hi, my name is <b>Sivasangaran T</b> and I am from Chennai, India.
+            I'm a <b> web developer</b> and a recent graduate with a{" "}
+            <b>
+              BE in Computer Science from St Joseph's Institute of Technology.
+            </b>
+            . <br />
             <br />
             I love to create projects with beautiful designs and put my own
-            twists on it, you can check out some of my work in the projects
-            section.
+            twists on them. You can check out some of my work in the projects
+            section, including a Hotel Management System built with React and
+            Flask, an E-Commerce Website using Python and SQLite, and an
+            Enhanced Product Recommendation System that utilizes deep learning
+            for personalized suggestions.
             <br />
             <br />I am <b>open</b> to new collaborations or work where I can
             contribute and grow. Feel free to connect with me, links are in the
             footer.
             <br />
             Apart from coding I love to make discord servers,designs and do
-            photography in my spare time.
+            editing in my spare time.
           </p>
           <a href="Resume.pdf" download className="resume-btn">
             <button>
@@ -41,6 +47,7 @@ const About = () => {
         <Skills skill="CSS" />
         <Skills skill="Bootstrap" />
         <Skills skill="Tailwind" />
+        <Skills skill="Python" />
         <Skills skill="Javascript" />
         <Skills skill="React" />
         <Skills skill="Git" />
@@ -48,8 +55,8 @@ const About = () => {
         <Skills skill="C++" />
         <Skills skill="Figma" />
         <Skills skill="Npm" />
-        <Skills skill = "Python" />
-        <Skills skill = "Database" />
+        <Skills skill="Node" />
+        <Skills skill="Database" />
       </div>
     </>
   );

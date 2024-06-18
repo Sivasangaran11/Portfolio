@@ -8,6 +8,7 @@ import {
   FaFigma,
   FaBootstrap,
   FaHtml5,
+  FaNode,
   FaCss3,
   FaPython,
   FaDatabase
@@ -29,7 +30,8 @@ const Skills = ({ skill }) => {
     Npm: <FaNpm style={{ color: "black" }}/>,
     Figma: <FaFigma style={{ color: "black" }}/>,
     Python: <FaPython style={{ color: "black" }}/>,
-    Database: <FaDatabase style={{ color: "black" }}/>
+    Database: <FaDatabase style={{ color: "black" }}/>,
+    Node: <FaNode style={{ color: "black" }}/>,
   };
 
   return (
