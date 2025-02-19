@@ -358,6 +358,8 @@ button:hover {
     font-size: 16px;
   }
   .Avatar {
+    margin-top: 80px;
+    height: 200px;
     width: 200px;
     margin-bottom: 25px;
   }
